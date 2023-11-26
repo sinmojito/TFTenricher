@@ -24,7 +24,7 @@ def _calc_fisher(gene_lists, genes_tmp, ngenes_thresh=10):
     [tmp.append(gene_lists[x]) for x in gene_lists.keys()]
     tmp.append(genes_tmp)
     flat_list = np.array([item for sublist in tmp for item in sublist])
-    nunique = np.unique(flat_list).shape
+    nunique = np.unique(flat_list).shape[0]
 
 
     # Fisher exact test
