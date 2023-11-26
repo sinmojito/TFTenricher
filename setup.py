@@ -24,6 +24,9 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU GENERAL PUBLIC LICENSE V3",
         ],
+    package_data={
+        "TFTenricher": ["data/*", "data/*/*"],
+    },
     python_requires='>=3.8',
     install_requires=[
         'matplotlib>=3.2.2',
