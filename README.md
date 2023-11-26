@@ -96,6 +96,18 @@ Current Members in the Project
 ------------------------------
 - @rasma774
 
+## Changes in forked version
+
+Refactored the structure and code to make
+
+ ```pip install .```
+
+compatible with conda environments. 
+
+
+
+
+
 References & how to cite
 ======================
 Magnusson, R., Lubovac-Pilav, Z. TFTenricher: a python toolbox for annotation enrichment analysis of transcription factor target genes. BMC Bioinformatics 22, 440 (2021). https://doi.org/10.1186/s12859-021-04357-4
